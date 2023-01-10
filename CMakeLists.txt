@@ -15,7 +15,7 @@ if(DOWNLOAD_ZLIB)
     include(FetchContent)
     FetchContent_Declare(
     zlib
-    URL https://zlib.net/zlib-1.2.12.tar.gz
+    URL https://www.zlib.net/zlib-1.2.13.tar.gz
     )
     FetchContent_MakeAvailable(zlib)
     set(ZLIB_LINK zlib)
