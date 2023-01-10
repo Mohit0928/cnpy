@@ -9,3 +9,7 @@ cnpy::npz_t load_npz(std::string fname){
     return cnpy::npz_load(fname);
 
 }
+
+int main(){
+    
+}
